@@ -2,4 +2,4 @@
 Sorry for being late lol 
 
 Done using C# script (.csx)
-run using `dotnet script`
+* To run use -> `dotnet script`
