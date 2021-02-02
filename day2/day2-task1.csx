@@ -23,15 +23,8 @@ foreach(var x in list)
 
     policies.letter = temp2[1].Split(':')[0].ToCharArray()[0];
 
-    int seenLetter =0;
-    foreach(var i in policies.password)
-    {
-        if(i == policies.letter)
-        {
-            ++seenLetter;
-        }   
-    }
-    if( seenLetter >= policies.min && seenLetter <= policies.max)
+    var letterInPassword = policies.password.Count( x => x == policies.letter);
+    if( letterInPassword >= policies.min && letterInPassword <= policies.max)
     {
         ++validPasswords;
     }
