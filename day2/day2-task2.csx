@@ -1,8 +1,8 @@
 public class PasswordPolicy{
-    public int position1 {get;set;}
-    public int position2 {get;set;}
-    public char letter{get;set;}
-    public string password{get;set;}   
+    public int position1 {get; set;}
+    public int position2 {get; set;}
+    public char letter{get; set;}
+    public string password{get; set;}   
 }
 
 
