@@ -1,5 +1,5 @@
-# AdventOfCode2020
+# Advent Of Code 2020
 Sorry for being late lol 
 
 Done using C# script (.csx)
-* Install this -> `https://github.com/filipw/dotnet-script` then do this -> `dotnet script`
+* Install this -> `https://github.com/filipw/dotnet-script` then do this -> `dotnet script {scriptName}`
