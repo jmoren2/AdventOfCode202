@@ -1,0 +1,1 @@
+var passports = System.IO.File.ReadAllLines("stuff.txt");
